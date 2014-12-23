@@ -8,4 +8,6 @@ slc run
 - [How do you use model hooks?](#how-do-you-use-model-hooks)
 
 ##How do you use model hooks?
-See
+1. Determine which hook you would like to use ([`afterInitialize`](https://github.com/strongloop/loopback-faq-model-hooks/blob/master/common/models/coffee-shop.js),
+   [`beforeValidate`](https://github.com/strongloop/loopback-faq-model-hooks/blob/master/common/models/coffee-shop.js), ...)
+2. Add the hook to your [`model.js` file](/common/models/coffee-shop.js)
