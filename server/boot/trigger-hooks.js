@@ -1,8 +1,6 @@
 var async = require('async');
 
 module.exports = function(app, cb) {
-  var CoffeeShop = app.models.CoffeeShop;
-
   async.waterfall([
     async.apply(createModel),
     async.apply(updateModel),
@@ -11,8 +9,7 @@ module.exports = function(app, cb) {
 
   function createModel(cb) {
     console.log('\n--- Creating a model');
-
-    CoffeeShop.create({
+    app.models.CoffeeShop.create({
       name: 'Bel Cafe',
       city: 'San Mateo'
     }, cb);
