@@ -40,7 +40,6 @@ module.exports = function(CoffeeShop) {
   // update
   CoffeeShop.beforeUpdate = function(next, changes) {
     console.log('> beforeUpdate triggered', changes);
-    console.log(arguments);
     next();
   };
 
