@@ -22,6 +22,6 @@ module.exports = function(app, cb) {
 
   function destroyModel(coffeeShop, cb) {
     console.log('\n--- Destroying a model');
-    coffeeShop.destroy(coffeeShop.id, cb);
+    coffeeShop.destroy(cb);
   }
 };
