@@ -3,9 +3,9 @@
 ***NOTE: Model hooks are now deprecated.  Use [operation hooks](http://docs.strongloop.com/display/LB/Operation+hooks) instead.***
 
 ```
-git clone git@github.com:strongloop/loopback-faq-model-hooks.git
-cd loopback-faq-model hooks
-node .
+$ git clone git@github.com:strongloop/loopback-faq-model-hooks.git
+$ cd loopback-faq-model hooks
+$ node .
 ```
 
 - [How do you use model hooks?](#how-do-you-use-model-hooks)
