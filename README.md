@@ -1,7 +1,7 @@
 #loopback-faq-model-hooks
 
-***NOTE: Model hooks are now deprecated.  Use [operation hooks](http://docs.strongloop.com/display/LB/Operation+hooks) instead.
-See [loopback-faq-operation-hooks](https://github.com/strongloop/loopback-faq-operation-hooks) for an example. ***
+***NOTE***: Model hooks are now deprecated.  Use [operation hooks](http://docs.strongloop.com/display/LB/Operation+hooks) instead.
+See [loopback-faq-operation-hooks](https://github.com/strongloop/loopback-faq-operation-hooks) for an example. 
 
 ```
 $ git clone git@github.com:strongloop/loopback-faq-model-hooks.git
