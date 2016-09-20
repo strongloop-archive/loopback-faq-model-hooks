@@ -1,3 +1,7 @@
+**DEPRECATED AS OF 2016-09-19**
+
+---
+
 #loopback-faq-model-hooks
 
 ***NOTE***: Model hooks are now deprecated.  Use [operation hooks](http://docs.strongloop.com/display/LB/Operation+hooks) instead.
